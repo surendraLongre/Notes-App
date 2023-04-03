@@ -1,0 +1,241 @@
+html {
+	font-family:sans-serif;
+	margin: 0px;
+	padding; 0px;
+}
+
+.sans-serif {
+	font-family: sans-serif;
+}
+
+* {
+	box-sizing: border-box;	
+}
+
+body {
+	/*background: url('https://images.unsplash.com/photo-1471107340929-a87cd0f5b5f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGVuJTIwYW5kJTIwcGFwZXJ8ZW58MHx8MHx8&w=1000&q=80') center center;*/
+	background: url('https://news.aglasem.com/wp-content/uploads/2019/11/aiats-answer-key-aglasem-image-750x375.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin: 0px;
+	padding: 0px;
+	background-size: cover;
+}
+
+.pointer {
+	cursor: pointer; 
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	background: linear-gradient(to bottom, #7EB7DB, #61A6D2);
+	border-right: solid 1px black;
+	padding: 20px;
+	font-size: 120%;
+	color:white;
+}
+
+#left {
+	display: flex;
+	gap:5px;
+
+}
+
+#left div{
+	border-right: solid black 1px;
+	padding:0px 5px;
+}
+
+#content {
+	text-align: center;
+	margin-top:18%;
+	font-size: 120%;
+}
+
+#sign-up {
+	background: rgb(10,255,10, 0.8);
+	padding:10px;
+	border: none;
+	border-radius: 8px;
+	margin-top:25px;
+	scale:1.5;
+}
+
+.form {
+	padding: 15px;
+	background: white;
+	position: absolute;
+	top:15%;
+	display: flex;
+	flex-direction: column;
+	left:18%;
+	gap:5px;
+	border-radius: 10px;
+	font-size:120%;
+	width:62.5%;	
+	outline: none;
+}
+
+.form input, .form button {
+	padding:10px;
+	border-radius: 5px;
+	border: purple solid 1px;
+	box-sizing: border-box;
+}
+
+input:focus {
+  border: 1px solid blue;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0px;
+	padding: 0px;
+	background: linear-gradient(to bottom,#7EB7DB, #61A6D2);
+	width: 100%;
+	text-align: center;
+	font-size: 120%;
+}
+
+
+.hide {
+	display: none;
+}
+
+#notes {
+	width: 40%;
+	margin: 0px auto;
+}
+
+.flex {
+	display: flex;
+}
+.space-between {
+	justify-content: space-between;
+}
+
+.contents {
+	display: contents;
+}
+.inline {
+	display: inline;
+}
+.column {
+	flex-direction: column;
+}
+
+.margin0 {
+	margin:0px;
+}
+
+.blue {
+	background: #7EB7DB;
+}
+
+.text-white {
+	color: white;
+}
+
+.padding15 {
+	padding: 15px;
+}
+
+.border10 {
+	border-radius: 7px;
+}
+
+.border-transparent {
+	border-color: transparent;
+}
+
+.font120 {
+	font-size: 120%;
+}
+
+.gap5 {
+	gap: 5px;
+}
+
+.margin5 {
+	margin: 5px;
+}
+
+.bg-white {
+	background: white;
+}
+
+.border-black {
+	border: solid 2px black;
+}
+
+.padding5 {
+	padding: 5px;
+}
+
+.nowrap {
+	white-space: nowrap;
+}
+
+.ellipsis {
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
+.width100 {
+	width: 100%;
+}
+
+.bg-red {
+	background: red;
+}
+
+.border-purple {
+	border: 2px solid #D554DE;
+	border-left:20px solid #D554DE;
+}
+
+textarea:focus {
+	outline: none;
+}
+textarea {
+	color: #D554DE;
+	background: #FCF1FF;
+}
+
+::placeholder {
+	color: #D554DE;
+}
+
+/* profile page */
+
+#profile {
+	display: grid;
+	margin:100px auto;
+	grid-template-columns: repeat(2, minmax(20px, 200px));
+	justify-content: center;
+
+	
+}
+
+#profile h2 {
+	grid-column: span 2;
+}
+
+#profile p {
+	margin:0px;
+	padding:10px;
+}
+
+.text-red {
+	color: darkred;
+}
+.bg-crimson {
+	background: #F4E0DE;
+}
+
+.success {
+	color: green;
+	background: rgb(0, 100,0,0.5);
+	padding: 15px;
+}
